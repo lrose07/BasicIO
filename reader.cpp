@@ -2,6 +2,16 @@
 #include <fstream>
 using namespace std;
 
+/*
+ * Lauren Rose
+ * ITEC 371
+ * Department of Information Technology
+ * Radford University
+ * 
+ * This program reads a binary file
+ * and outputs the contents.
+ */
+
 int main(int argc, char** argv) {
     ifstream ifile;
     ifile.open(argv[1], ios::binary | ios::out);

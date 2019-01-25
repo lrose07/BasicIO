@@ -1,7 +1,16 @@
 #include <iostream>
 #include <fstream>
-
 using namespace std;
+
+/*
+ * Lauren Rose
+ * ITEC 371
+ * Department of Information Technology
+ * Radford University
+ * 
+ * This program overwrites values 
+ * in a binary file.
+ */
 
 int main(int argc, char** argv) {
     ofstream ofile;
