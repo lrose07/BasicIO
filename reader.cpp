@@ -26,5 +26,6 @@ int main(int argc, char** argv) {
         cur = cur + sizeof(data);
         ifile.seekg(cur);
     }
+    ifile.close();
     return 0;
 }
